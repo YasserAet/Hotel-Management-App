@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="manageRoomsButton">
+      <property name="text">
+       <string>Manage Rooms</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="checkInButton">
+      <property name="text">
+       <string>Check-In</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="getAvailRoomButton">
+      <property name="text">
+       <string>Get Available Rooms</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="searchCustomerButton">
+      <property name="text">
+       <string>Search Customer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="checkOutButton">
+      <property name="text">
+       <string>Check-Out</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="guestSummaryReportButton">
+      <property name="text">
+       <string>Guest Summary Report</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
