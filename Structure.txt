@@ -1,0 +1,32 @@
+HotelManagementApp/
+│
+├── src/
+│   ├── main.cpp
+│   ├── mainwindow.ui
+│   ├── mainwindow.cpp
+│   ├── mainwindow.h
+│   ├── chambre.cpp
+│   ├── chambre.h
+│   ├── client.cpp
+│   ├── client.h
+│   ├── reservation.cpp
+│   ├── reservation.h
+│   ├── reservationdialog.ui
+│   ├── reservationdialog.cpp
+│   ├── reservationdialog.h
+│   └── ... (other source files)
+│
+├── forms/
+│   ├── mainwindow.ui
+│   └── reservationdialog.ui
+│
+├── resources/
+│   ├── HotelManagementApp.qrc
+│   └── ... (other resource files)
+│
+├── build/
+│   └── ... (build artifacts)
+│
+├── HotelManagementApp.pro
+├── README.md
+└── ... (other project configuration files)

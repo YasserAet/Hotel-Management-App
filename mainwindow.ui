@@ -11,65 +11,40 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Hotel Management App</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QPushButton" name="manageRoomsButton">
+     <widget class="QPushButton" name="availableRoomsButton">
       <property name="text">
-       <string>Manage Rooms</string>
+       <string>Show Available Rooms</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="checkInButton">
+     <widget class="QPushButton" name="reserveRoomButton">
       <property name="text">
-       <string>Check-In</string>
+       <string>Make Reservation</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="getAvailRoomButton">
-      <property name="text">
-       <string>Get Available Rooms</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="searchCustomerButton">
-      <property name="text">
-       <string>Search Customer</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="checkOutButton">
-      <property name="text">
-       <string>Check-Out</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="guestSummaryReportButton">
-      <property name="text">
-       <string>Guest Summary Report</string>
-      </property>
-     </widget>
+     <widget class="QListWidget" name="roomListWidget"/>
     </item>
    </layout>
   </widget>
-  <widget class="QMenuBar" name="menubar">
+  <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <resources/>
  <connections/>
